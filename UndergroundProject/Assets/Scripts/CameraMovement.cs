@@ -11,12 +11,28 @@ public class CameraMovement : MonoBehaviour
     float rotationY = 0.0f;
     float rotationX = 180.0f;
 
+    private bool clicked = false;
+
+    void Start()
+    {
+        Cursor.visible = false;
+    }
+
     //Update rotation of camera
     void Update()
     {
+        if (!clicked)
+        {
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
             rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
             transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+        }
+
+        if(Input.GetMouseButtonDown(1))
+        {
+            clicked = !clicked;
+            Cursor.visible = clicked;
+        }
     }
 }
