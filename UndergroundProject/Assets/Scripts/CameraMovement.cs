@@ -15,13 +15,13 @@ public class CameraMovement : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
 
     //Update rotation of camera
     void Update()
     {
-        if (!clicked)
+        if (clicked)
         {
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
@@ -31,8 +31,13 @@ public class CameraMovement : MonoBehaviour
 
         if(Input.GetMouseButtonDown(1))
         {
-            clicked = !clicked;
-            Cursor.visible = clicked;
+            clicked = true;//!clicked;
+            Cursor.visible = !clicked;
+        }
+        if(Input.GetMouseButtonUp(1))
+        {
+            clicked = false;//!clicked;
+            Cursor.visible = !clicked;
         }
     }
 }
