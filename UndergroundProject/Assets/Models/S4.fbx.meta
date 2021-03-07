@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: e9f751e0f2f117d478c9596456457d73
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bot
+    second: {fileID: 2100000, guid: f44f0957c7dc3a647a97d3ecf9f46fd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candlesticks
+    second: {fileID: 2100000, guid: 4c58dcc49aebe0c47be916457f56efa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cube
+    second: {fileID: 2100000, guid: 6ac3b5017feffcd42806380012209aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: b97ad434a35c1ef44b0c16de212b45e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: f0c7c516efc445b49a8c9e60db08d710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 00b565afb8a109a4b9bd5fd5d16208aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: 6a51503cf329f9a4aa156d72b643fe79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None
+    second: {fileID: 2100000, guid: d4d38c05521541c4c84e59714253942f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: ab6c21790793d734dbcc22556f759c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top
+    second: {fileID: 2100000, guid: cbc9c948cd4f73040b00b05141909cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: book1_mtl
+    second: {fileID: 2100000, guid: 03e3d2aa5818f444aa74b673976e4be2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drzac
+    second: {fileID: 2100000, guid: 2560b738b98e6b4418571ea7db1c5555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona
+    second: {fileID: 2100000, guid: df17a795a678df64d819eefd9988e300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona.1
+    second: {fileID: 2100000, guid: 0e5403abef6cb774a899e32a37463cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona.2
+    second: {fileID: 2100000, guid: ccd183279ad9b9047b2fc86121b371bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona1
+    second: {fileID: 2100000, guid: 5e476c32932555b49b2d5cb26fc42526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona10
+    second: {fileID: 2100000, guid: 6231b572b55ca7f4c9920db2a2902f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona11
+    second: {fileID: 2100000, guid: 95c5b6c28131a8f41bd96e26a629f593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona12
+    second: {fileID: 2100000, guid: 37df1f6010338a8429b82e9ac80fd5e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona14
+    second: {fileID: 2100000, guid: 3b68b3b4bedbbfa4aa5c13fa812efae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona16
+    second: {fileID: 2100000, guid: 73662e860a4bc4648a2d3a4091d92bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona17
+    second: {fileID: 2100000, guid: 80b4c8bb2123062408944abf51824c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona2
+    second: {fileID: 2100000, guid: 634eaa7bd47f6db4c9a5e3dd699825f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona3
+    second: {fileID: 2100000, guid: 5d205cc987794c54eb1663a4eef84db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona4
+    second: {fileID: 2100000, guid: 899a1a938e4a2f94a99be3d670a9e207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona6
+    second: {fileID: 2100000, guid: d7ed0e1e845ada84a9ac86984b7858a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona7
+    second: {fileID: 2100000, guid: 9bcec9da93cc72544a833fbe0ccc36ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona8
+    second: {fileID: 2100000, guid: 0b757f447829398458c6989b2c872e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona9
+    second: {fileID: 2100000, guid: 00384e47f4994bf4ab2a60257ddabf7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ladder_material
+    second: {fileID: 2100000, guid: 4e342d841495da04eb72fc415bdd9300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 7a86f595194a1eb43b2a624315522812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: svijecnjak
+    second: {fileID: 2100000, guid: 52dd50db57d7522419326dab7b209510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zidovi
+    second: {fileID: 2100000, guid: 3ed6f748d9c7ede4aa0990b434614ead, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CoverNormal
+    second: {fileID: 2800000, guid: 8abdb6ce65c8a3f48bac500d647259ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CoverRoughness
+    second: {fileID: 2800000, guid: 8449fad340e4925439108b65cf0bb862, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CubeSurface_Color
+    second: {fileID: 2800000, guid: 5ea6deb1cd963624daf59053825c7c92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_albedo
+    second: {fileID: 2800000, guid: bed193c78911a3a419bf7c2d25eb9ed4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Null.5Surface_Color
+    second: {fileID: 2800000, guid: 6123a25693193864786792c134dcf278, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: book1_2019-02-24_23-55-08_complete.rpf_converted
+    second: {fileID: 2800000, guid: 82c99427b2974774fab20bc0decfd403, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cover color
+    second: {fileID: 2800000, guid: 42262afa7b8927845a0862a28b917960, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: default n
+    second: {fileID: 2800000, guid: 6f02555c60127b641909b0fd7aa0031d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drzacSurface_Color
+    second: {fileID: 2800000, guid: 20e95f06ff8263e4b86cb7dbb11cde63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona.13Surface_Color
+    second: {fileID: 2800000, guid: 0ee5afa8e5d53734dbe62960a7835e88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona.15Surface_Color
+    second: {fileID: 2800000, guid: 3404d43153a02c2469a40391c925ab7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona.5Surface_Color
+    second: {fileID: 2800000, guid: 0d1aa877ee347df4a9068924192b2a2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona10Surface_Color
+    second: {fileID: 2800000, guid: aea470252a2915849872befc33f5b8f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona11Surface_Color
+    second: {fileID: 2800000, guid: e6d44a0626dff744eacc5ee2df264020, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona12Surface_Color
+    second: {fileID: 2800000, guid: 5c66b9c1ff9c56a4ba652393de777712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona14Surface_Color
+    second: {fileID: 2800000, guid: 8d704de9cc9fa4245add5c721f1f1b32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona16Surface_Color
+    second: {fileID: 2800000, guid: 5bd5a224ac28c6d43ae70590872bcbdd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona17Surface_Color
+    second: {fileID: 2800000, guid: 270b4f59d92f00443bb83b887e3f9c7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona1Surface_Color
+    second: {fileID: 2800000, guid: c565ab29984746c4d99a3fb91b1ce15b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona2Surface_Color
+    second: {fileID: 2800000, guid: 1c80151e959cb5042a36aa31f1d2fece, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona3Surface_Color
+    second: {fileID: 2800000, guid: 53373335eda430d449b9332acb472d98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona4Surface_Color
+    second: {fileID: 2800000, guid: 4bd2c0bca482fa142a4399fedd43fc8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona6Surface_Color
+    second: {fileID: 2800000, guid: ce7853411f2e73b499fd565874c0ee3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona7Surface_Color
+    second: {fileID: 2800000, guid: 9a12023e6cfe940439243746551e4214, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona8Surface_Color
+    second: {fileID: 2800000, guid: 88b288e44e418724099b144629e0f3db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona9Surface_Color
+    second: {fileID: 2800000, guid: b13534e3231a7f44686ff741d6fe67e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ladder_albedo
+    second: {fileID: 2800000, guid: 948f455ea8602cc468e5265dd1b45144, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ladder_normals
+    second: {fileID: 2800000, guid: d92e8ed6302737c4895a3d45ef730f31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: none albedo
+    second: {fileID: 2800000, guid: e1e80f0e5b5fbb74b96551f04d659b47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old book
+    second: {fileID: 2800000, guid: 93d2797354f4cbf4f996844e53fc8cd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old book n
+    second: {fileID: 2800000, guid: f8eac8b555f9dcf48a77bcc5d947df4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper color
+    second: {fileID: 2800000, guid: d68095c7fd52bb549ab5668de2e09929, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stolnjak
+    second: {fileID: 2800000, guid: 85d05debdfe89ef4d9e37226319baacb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: svijeca
+    second: {fileID: 2800000, guid: fa344b36426c1e4489376bed7437d3c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table albedo
+    second: {fileID: 2800000, guid: 65875f10b64ce724f9740e59b5591edf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table n
+    second: {fileID: 2800000, guid: 875b37c2cc8f33a4eb91371ae1675042, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table t
+    second: {fileID: 2800000, guid: 45d01760a81dee243a4b179dea43c5c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table top n
+    second: {fileID: 2800000, guid: 7173577c2a0a2674aa416cf8af3ff5ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zidoviSurface_Color
+    second: {fileID: 2800000, guid: 6a1cf4dc45abc3a4facc40368c0e0bf5, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

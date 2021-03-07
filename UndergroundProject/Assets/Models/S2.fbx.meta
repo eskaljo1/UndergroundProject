@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 23ac30ecccb811449bab75ec9d6f2e22
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bot
+    second: {fileID: 2100000, guid: 4d3b30aa1ee3f2245a584860dff99734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 6711469f8fb0469448c9cae834f6bc79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_mat
+    second: {fileID: 2100000, guid: 6ca6d0fec952a754b9c5f7c013d45540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extrude
+    second: {fileID: 2100000, guid: 2770399aefe998b4fafb48d73bf57fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 78d578f58f35fd24098cc32f33ee5212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: b11b9d8eb2d2d88428c28ef3bb373ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: b97cc2ea327cc89418301cbf85ba9fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.3
+    second: {fileID: 2100000, guid: d50fb391cd2380847976c2656dafb5e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.5
+    second: {fileID: 2100000, guid: e613da7a9269bea48889c9f1cdd2e4f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 98664e4a9db0cc5438c955df6c20c841, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None
+    second: {fileID: 2100000, guid: 68ba144bb786423419e7fbe976984cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PBR
+    second: {fileID: 2100000, guid: 38267f8d58e86f347805d9591cf46288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PBR.1
+    second: {fileID: 2100000, guid: 839e98d2780a4a5438db25dbcab4ae8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: 87db5ce14c332ee43a4b82626bafbb0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top
+    second: {fileID: 2100000, guid: 5e7cb8c0c0a3317499c4a28c67675d76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _quebectrunk_HIGH_25k2k_quebectrunk_HIGH_25k2kquebectrunk_HIGH_25k2kb
+    second: {fileID: 2100000, guid: 793b4c6323266c54583c4099dc4e31ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: book1_mtl
+    second: {fileID: 2100000, guid: 78b27841627d3c741abbfd9e182a4979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colchon
+    second: {fileID: 2100000, guid: 7254e5c054c5776438213e732a293ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drzac
+    second: {fileID: 2100000, guid: f12e81e326a26d344adbaca79c270209, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gospel
+    second: {fileID: 2100000, guid: 4ec5244a47792904099e57a91969f97c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona10
+    second: {fileID: 2100000, guid: 858006d8f71df5640a61f33179a4fb75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona12
+    second: {fileID: 2100000, guid: 1c6e9c94079f6ad4ab8d536ed0759bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ikona9
+    second: {fileID: 2100000, guid: 108bb1162c9fbd44382c9a9bc6350fc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krst
+    second: {fileID: 2100000, guid: fdbeef20553712144a91c10f65b6f397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 668ce1b6d15052d4d8c09d879d949065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: madera
+    second: {fileID: 2100000, guid: 999884e21a224d942be6bae631462733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plywood_03-dirty
+    second: {fileID: 2100000, guid: 4166643abea0d6f45b460cd251deefe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: svijecnjak
+    second: {fileID: 2100000, guid: 72905123588e06141aa82d16fb09d69f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tela
+    second: {fileID: 2100000, guid: baf994a62ca724d418ccf00b33b01002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zid12
+    second: {fileID: 2100000, guid: 039f44fe52f645e41bd2ce1ac7666b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zid3
+    second: {fileID: 2100000, guid: 77b29ae4b0b4a084e92be7c7ec7d5ded, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 110954240
+    second: {fileID: 2800000, guid: d066786dfb4d8a94686f772211d68d42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2-2
+    second: {fileID: 2800000, guid: e0e0d4e4a468cb44b8c2a03749081f8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CANDEL~1
+    second: {fileID: 2800000, guid: eac5070f8ca437748a0ee6da8db62294, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CANDEL~3
+    second: {fileID: 2800000, guid: 1e27a16a97f72dd449c19c266c701284, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Christ4
+    second: {fileID: 2800000, guid: 093feaca761e95540bdbddcf9023df8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CoverNormal
+    second: {fileID: 2800000, guid: e2222f7d4655e2543947f4b066f8f0ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CoverRoughness
+    second: {fileID: 2800000, guid: 01c1bd7725058244cb450e20713489d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ExtrudeSurface_Color
+    second: {fileID: 2800000, guid: 4ac0e560da121d141a5250363063dad0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Icon_4
+    second: {fileID: 2800000, guid: 8a59a271324dfc84cbd8dd399039bfe5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Null.5Surface_Color
+    second: {fileID: 2800000, guid: f87c419ad68de5a48a85f2cd8f80cd21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Savaof4
+    second: {fileID: 2800000, guid: 9995706d9bdf8f04185833a31016f6b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Side wall2
+    second: {fileID: 2800000, guid: 602c7e952670e8d4b86cbd820ba22c6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_BrassPolished_1K_albedo
+    second: {fileID: 2800000, guid: 4946966d9df66864bb93af6683d45528, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_BrassPolished_1K_normal
+    second: {fileID: 2800000, guid: b4547bcf33b76314dab8d8bab73eef2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_BrassPolished_1K_roughness
+    second: {fileID: 2800000, guid: 672c0f18f28e5b6488d237bc7944b6da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_SteelBrushed_1K_albedo
+    second: {fileID: 2800000, guid: 45f154cf2bcacd247aa465082180fcca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_SteelBrushed_1K_normal
+    second: {fileID: 2800000, guid: 9be4a00d9196cae41828264eeeaad603, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_SteelBrushed_1K_roughness
+    second: {fileID: 2800000, guid: 4f9e27e632b4dc548a08e7e374582b37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_colchon_d
+    second: {fileID: 2800000, guid: 29d1c2c9a905e8e44b5efb13d8bc5b66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_colchon_n
+    second: {fileID: 2800000, guid: 9685e63e32e88cb4ba06c8d56bd86098, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_madera_d
+    second: {fileID: 2800000, guid: 880c431af933aa040972329fd8f12394, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_madera_n
+    second: {fileID: 2800000, guid: 2b3b7a4ea98fb42448191d68a3144417, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_sabana_d
+    second: {fileID: 2800000, guid: 9b7e8c441a4c52c429188958909ddb2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_sabana_n
+    second: {fileID: 2800000, guid: 512d784c666a17d4aaea636822cf4ce1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: book1_2019-02-24_23-55-08_complete.rpf_converted
+    second: {fileID: 2800000, guid: f8cad119d773f3f42a0f42c314ec40ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cover color
+    second: {fileID: 2800000, guid: d8ccdd33c975f9b408034139e6ee5648, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2800000, guid: ffccac4efad1b0f4ba78d29c61bc2ba3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: doorn
+    second: {fileID: 2800000, guid: 0d8358868413d6d4e9da1d98d1493d5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: drzacSurface_Color
+    second: {fileID: 2800000, guid: ad2181cb5917f184aa9f0ce60a9b13a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gospelSurface_Color
+    second: {fileID: 2800000, guid: 3d8e54267815d014fac39452f98a8a8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona v3
+    second: {fileID: 2800000, guid: 9ac50d5895a9d3048897695d6e1734f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona v3 2
+    second: {fileID: 2800000, guid: eed901826e426404cb8078463149f51a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona v3 3
+    second: {fileID: 2800000, guid: e585f675541e4744b9f3e420d9d21b6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona10Surface_Color
+    second: {fileID: 2800000, guid: 09be762300caeda41b2a47917d36702f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona12Surface_Color
+    second: {fileID: 2800000, guid: 920f56ebc7152a145a4eaa83a5f6da6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona2
+    second: {fileID: 2800000, guid: 98408cb7587d46e49bb4496cab3f3799, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona4
+    second: {fileID: 2800000, guid: dca31360153f35043895503293299299, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ikona9Surface_Color
+    second: {fileID: 2800000, guid: 0cc7a2b07e0e0204ca689ef13dfc18a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: krst.1Surface_Color
+    second: {fileID: 2800000, guid: 63d9f37e81c326d4db00376dd54e700d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: none albedo
+    second: {fileID: 2800000, guid: d4a96db13465a8f45a8b2750dd85b274, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old book
+    second: {fileID: 2800000, guid: 204d3ca81f7ad4f42a3c534e5cd57ece, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: old book n
+    second: {fileID: 2800000, guid: 90050cc5b3fc2234d8e5cf9816883d4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper color
+    second: {fileID: 2800000, guid: eb06d959b8cb2ed4185b8fc4fa83b7e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: peskir za sto
+    second: {fileID: 2800000, guid: 56f8ffa7015388d418b85bcac62c3136, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plywood albedi
+    second: {fileID: 2800000, guid: 5c249e5df30a2a34ba4fb718d14ba45a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plywood n
+    second: {fileID: 2800000, guid: 38281074fc3ea4845bc74e52a607a03c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pod
+    second: {fileID: 2800000, guid: 33c1b3f5c3ef4e547aa0b34be943c723, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quebectrunk_HIGH_25k2k_fixed
+    second: {fileID: 2800000, guid: 4b1a3e2e81515034886de4b78dde021e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sack
+    second: {fileID: 2800000, guid: 881c44e3284852441a500b72902009f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sack n
+    second: {fileID: 2800000, guid: 56ca0e815e828214e9226b9d8d49e2f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shroud
+    second: {fileID: 2800000, guid: 96f2f6c62f45ff744903e5cbf458e206, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: side2-1
+    second: {fileID: 2800000, guid: 1e97302f673e61740a9da72dfad8873a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: side2-2
+    second: {fileID: 2800000, guid: ef29bfec9a0519142ae6ab51e21e4b01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: side2-3
+    second: {fileID: 2800000, guid: 419c0e93c21b6c04ca266ebaf8da1781, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: svijeca
+    second: {fileID: 2800000, guid: 5f1e602cb1fee484b92bc69d1907d102, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table albedo
+    second: {fileID: 2800000, guid: 3601916bbce003a4eb1fcf2aef0b0356, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table n
+    second: {fileID: 2800000, guid: 6430d83f7e0a2674b9a73173ef688751, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table t
+    second: {fileID: 2800000, guid: 211fbc30a4d2c7e47877d4023592573e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table top n
+    second: {fileID: 2800000, guid: 8749d7074ace7434b9df5c3c3d3715a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zid12Surface_Color
+    second: {fileID: 2800000, guid: 1ea27c848d742d84ba05a3a15a697af9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zid3Surface_Color
+    second: {fileID: 2800000, guid: 9344b566d222ca140aa3046391205dfb, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

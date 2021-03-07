@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 967ae37181860a440b346fdf25d1a0e2
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair
+    second: {fileID: 2100000, guid: 9540764a4bab91c42aa763a38684497f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cube
+    second: {fileID: 2100000, guid: 87bc4e6eeec69384199710ba38c7fff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBlueGlass
+    second: {fileID: 2100000, guid: bd3f16aea87e813428cd7e62052dbeaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 7aa967de888b03b42b78b4347af4097c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electro
+    second: {fileID: 2100000, guid: 98783a021e111fa44bac09fb33b2ff53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: bf02ced50acf2864b91060aea853280f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: e7422d5fe4be9cc4a9bd209343c891b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2.1
+    second: {fileID: 2100000, guid: 78dc2c53b97b21b48befebf47e519fc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlankWood
+    second: {fileID: 2100000, guid: ac726a4157bc83046992c42d84211722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlankWood.2
+    second: {fileID: 2100000, guid: cc631216910110a438d1fca42e905576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlankWood.3
+    second: {fileID: 2100000, guid: 236d9140989b23e448d9064f9e7218eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: 2100000, guid: 349877a83b5575842898f15d8823299a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_2
+    second: {fileID: 2100000, guid: 22247467e57052b4b9092cc373a3080a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sigaret
+    second: {fileID: 2100000, guid: 442c710169f825f42bf932958f081009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sigaret.1
+    second: {fileID: 2100000, guid: aebac6bfe4d249349a29ca0bd1ff8f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tabaco
+    second: {fileID: 2100000, guid: 8ea361f4f02018240bd41de37504fcdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tabaco.1
+    second: {fileID: 2100000, guid: 76d1c1a0fd6ee3049a042592c414adb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpFloor
+    second: {fileID: 2100000, guid: 347f66c4a56801245ad8bd19e8af0da9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowMetal
+    second: {fileID: 2100000, guid: 9bbc83cd2392cfb40b7170ca282769b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2SG
+    second: {fileID: 2100000, guid: 37dab17d85b31fc48b921f7146ffae0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: desk_lamp_material
+    second: {fileID: 2100000, guid: f7a7d4a3943f57545908b6b75bfa1e36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kapa.1
+    second: {fileID: 2100000, guid: 4cdc49136ee38df4b9ed5cd68d074331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f5927d6710635384da320b848a9f49bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: masina
+    second: {fileID: 2100000, guid: c8e548f5a516119489e1afdc71ec8331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: radni sto
+    second: {fileID: 2100000, guid: 27c368a5e9d647b43a8bb21cf25d73aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vjesalica
+    second: {fileID: 2100000, guid: d6aeec8fba71abd43bdd10379e5fe4b4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chair_albedo
+    second: {fileID: 2800000, guid: f4890b63c24843a4b9924181bd149b12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chair_normal
+    second: {fileID: 2800000, guid: 3812bc75d07a73c4382e37cb90dc413d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CubeSurface_Color
+    second: {fileID: 2800000, guid: 19b67af2c4aa6f9428e2ec2446e88b54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_albedo
+    second: {fileID: 2800000, guid: f21625bc2b8618046ab9b8d8fa8e31f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_normal
+    second: {fileID: 2800000, guid: b3e3c24a47bc35d45abe7d2c33d556e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_roughness
+    second: {fileID: 2800000, guid: f3832681f7103cf40a6b581604a05622, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KGB man 1
+    second: {fileID: 2800000, guid: 5ca7b92063899264abaccf5d8444b623, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WoodFine0058_30_seamless_S
+    second: {fileID: 2800000, guid: 048b6220b1cf0db4bac266d460ca592d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: img_3894c
+    second: {fileID: 2800000, guid: 96f3b19507381524e9132ce2469035a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kapa.1Surface_Color
+    second: {fileID: 2800000, guid: d6292cc2d12595247b61b17ce5d7d18c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert1_Base_Color
+    second: {fileID: 2800000, guid: a79f21cbfd1ed3a45bd296fda375966d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert1_Normal_DirectX
+    second: {fileID: 2800000, guid: 80bd28e8112b6ca43b95dd5dc5136d67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lampa
+    second: {fileID: 2800000, guid: 61167819663034442abec90a4a342888, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lampa bump
+    second: {fileID: 2800000, guid: c97015cdfa357014896269634b1bc485, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: masina sivo
+    second: {fileID: 2800000, guid: 90870da31df434943962ae3bdb7d36c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: masina1
+    second: {fileID: 2800000, guid: d4a88fc54cc48b641ba15884a3a7824e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: post-16680-1164891353
+    second: {fileID: 2800000, guid: 5f6ebabf1177a8541bf0e4f27434800b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: radni_stoSurface_Color
+    second: {fileID: 2800000, guid: e764ad1016980444396d9285a096429f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rust
+    second: {fileID: 2800000, guid: 261c577c5dbea4f49a6b05c358dbca31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shutterstock_61339081
+    second: {fileID: 2800000, guid: 70959c1f3447d614cabf7c1dbe3af88c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: staljin
+    second: {fileID: 2800000, guid: 7d200a9983db0fa4eb24ac34286b341d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vjesalicaSurface_Color
+    second: {fileID: 2800000, guid: 7a6ffceabc1ec3e44bb6123441b0bc8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zid1
+    second: {fileID: 2800000, guid: 48b4e4e0b563808479b4d3cf3fb444dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zid2
+    second: {fileID: 2800000, guid: 2fd137370db2df9418e5e7cfb5a46668, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
