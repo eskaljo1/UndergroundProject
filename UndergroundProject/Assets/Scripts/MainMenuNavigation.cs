@@ -33,7 +33,8 @@ public class MainMenuNavigation : MonoBehaviour
 
     void OnMouseDown()
     {
-        if(Cursor.visible)
-            OpenScene();
+        if(!Exhibit.exhibitSelected) 
+            if(Cursor.visible)
+                OpenScene();
     }
 }

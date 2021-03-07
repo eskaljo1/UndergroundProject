@@ -21,23 +21,25 @@ public class CameraMovement : MonoBehaviour
     //Update rotation of camera
     void Update()
     {
-        if (clicked)
-        {
-            rotationX += Input.GetAxis("Mouse X") * sensitivityX;
-            rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-            rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
-            transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
-        }
+        if (!Exhibit.exhibitSelected) {
+            if (clicked)
+            {
+                rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+                rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+                rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
+                transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+            }
 
-        if(Input.GetMouseButtonDown(1))
-        {
-            clicked = true;//!clicked;
-            Cursor.visible = !clicked;
-        }
-        if(Input.GetMouseButtonUp(1))
-        {
-            clicked = false;//!clicked;
-            Cursor.visible = !clicked;
+            if (Input.GetMouseButtonDown(1))
+            {
+                clicked = true;//!clicked;
+                Cursor.visible = !clicked;
+            }
+            if (Input.GetMouseButtonUp(1))
+            {
+                clicked = false;//!clicked;
+                Cursor.visible = !clicked;
+            }
         }
     }
 }
