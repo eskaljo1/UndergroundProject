@@ -273,13 +273,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942928679}
-  m_LocalRotation: {x: -0, y: -0.6760382, z: -0, w: 0.73686665}
-  m_LocalPosition: {x: 0.854, y: 0.86, z: -9.222}
-  m_LocalScale: {x: 0.3072065, y: 0.3072065, z: 0.3072065}
+  m_LocalRotation: {x: -0.08533856, y: -0.70384216, z: -0.08581046, w: 0.6999715}
+  m_LocalPosition: {x: 0.839, y: 0.813, z: -9.388}
+  m_LocalScale: {x: 0.19986811, y: 0.2044995, z: 0.19986811}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -85.07001, z: 0}
+  m_LocalEulerAnglesHint: {x: -13.902, y: -90.316, z: 0}
 --- !u!212 &942928682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -319,7 +319,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 667d5674eee81534b881b087d983afb9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8d480e56e19702478fc5fce8dc67fe8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4555,7 +4555,6 @@ GameObject:
   - component: {fileID: 993540887376402246}
   - component: {fileID: 8056705245465627546}
   - component: {fileID: 7302798946085845456}
-  - component: {fileID: 4163372300903540792}
   m_Layer: 0
   m_Name: glavni_hodnik
   m_TagString: Untagged
@@ -4563,40 +4562,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!328 &4163372300903540792
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4163372300903540791}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: ddc9a53cacc8959448418f0889f90d5c, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 3
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
 --- !u!1 &4168828575051246347
 GameObject:
   m_ObjectHideFlags: 0
