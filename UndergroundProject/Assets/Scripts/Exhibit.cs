@@ -8,7 +8,7 @@ public class Exhibit : MonoBehaviour
     public PostProcessVolume postProcessing;
     public Camera camera; //main camera
 
-    public int distance; //distance to place object in front of camera
+    public float  distance; //distance to place object in front of camera
     
     private bool isSelected = false;
     private bool _isRotating;
@@ -40,6 +40,7 @@ public class Exhibit : MonoBehaviour
             isSelected = true;
             postProcessing.weight = 1; //activate depth of field
             gameObject.transform.position = camera.transform.position + camera.transform.forward * distance;
+            
         }
         //if exhibit is selected, close exhibit
         else
