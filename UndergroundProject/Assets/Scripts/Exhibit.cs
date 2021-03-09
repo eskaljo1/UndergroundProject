@@ -7,6 +7,7 @@ public class Exhibit : MonoBehaviour
 {
     public PostProcessVolume postProcessing;
     public Camera camera; //main camera
+    public GameObject canvas;
 
     public float  distance; //distance to place object in front of camera
     
@@ -24,6 +25,7 @@ public class Exhibit : MonoBehaviour
     private Vector3 _mouseOffset;
     private Vector3 _rotation = Vector3.zero;
 
+
     void Start()
     {
         exhibitSelected = false;
@@ -36,10 +38,11 @@ public class Exhibit : MonoBehaviour
         //if exhibit is not selected, open selected exhibit
         if(!exhibitSelected)
         {
+            canvas.SetActive(true);
             exhibitSelected = true;
             isSelected = true;
             postProcessing.weight = 1; //activate depth of field
-            gameObject.transform.position = camera.transform.position + camera.transform.forward * distance;
+            //gameObject.transform.position = camera.transform.position + camera.transform.forward * distance;
             
         }
         //if exhibit is selected, close exhibit
@@ -48,6 +51,7 @@ public class Exhibit : MonoBehaviour
             //check if the pressed exhibit is the selected one
             if(isSelected)
             {
+                canvas.SetActive(false);
                 exhibitSelected = false;
                 isSelected = false;
                 postProcessing.weight = 0; //deactivate depth of field
