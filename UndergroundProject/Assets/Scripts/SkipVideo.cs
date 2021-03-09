@@ -14,9 +14,12 @@ public class SkipVideo : MonoBehaviour
         {
             videoObjects[videoObjects.Length - numberOfVideos].SetActive(false);
             numberOfVideos--;
-            
+
             if (numberOfVideos == 0)
+            {
                 gameObject.SetActive(false);
+                Exhibit.storiesDone = true;
+            }
             else
             {
                 videoObjects[videoObjects.Length - numberOfVideos].SetActive(true);

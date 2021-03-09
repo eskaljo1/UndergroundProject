@@ -14,16 +14,17 @@ public class Exhibit : MonoBehaviour
     //private bool isSelected = false;
    // private bool _isRotating;
     public static bool exhibitSelected = false; //used to stop movement
+    public static bool storiesDone = false; //true if all videos skipped or done
 
     //initial position and rotation
-   // private Vector3 initialPosition;
+    // private Vector3 initialPosition;
     //private Quaternion initialRotation;
 
     //for rotation
-   // private float _sensitivity = 0.4f;
-   // private Vector3 _mouseReference;
-   // private Vector3 _mouseOffset;
-   // private Vector3 _rotation = Vector3.zero;
+    // private float _sensitivity = 0.4f;
+    // private Vector3 _mouseReference;
+    // private Vector3 _mouseOffset;
+    // private Vector3 _rotation = Vector3.zero;
 
     //Canvas info (next script)
     public Sprite[] slajdovi;
@@ -42,7 +43,7 @@ public class Exhibit : MonoBehaviour
     void OnMouseDown()
     {
         //if exhibit is not selected, open selected exhibit
-        if(!exhibitSelected)
+        if(!exhibitSelected && storiesDone)
         {
             panel.SetActive(true);
             exhibitSelected = true;
