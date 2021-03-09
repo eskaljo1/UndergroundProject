@@ -9,7 +9,12 @@ public class CameraMovement : MonoBehaviour
     public float minimumY = -90.0f;
     public float maximumY = 90.0f;
     float rotationY = 0.0f;
-    float rotationX = 180.0f;
+    float rotationX = 360.0f;
+
+    //Zoom
+    public float zoomSpeed = 30f;
+    public float maxFov = 60f;
+    public float minFov = 40f;
 
     private bool clicked = false;
 
@@ -41,5 +46,11 @@ public class CameraMovement : MonoBehaviour
                 Cursor.visible = !clicked;
             }
         }
+
+        //Zoom
+        float fov = Camera.main.fieldOfView;
+        fov += Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
+        fov = Mathf.Clamp(fov, minFov, maxFov);
+        Camera.main.fieldOfView = fov;
     }
 }
