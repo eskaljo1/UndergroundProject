@@ -14,7 +14,7 @@ public class CameraMovement : MonoBehaviour
     //Zoom
     public float zoomSpeed = 30f;
     public float maxFov = 60f;
-    public float minFov = 40f;
+    public float minFov = 20f;
 
     private bool clicked = false;
 

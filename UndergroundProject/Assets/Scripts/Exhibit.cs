@@ -43,7 +43,7 @@ public class Exhibit : MonoBehaviour
     void OnMouseDown()
     {
         //if exhibit is not selected, open selected exhibit
-        if(!exhibitSelected && storiesDone)
+        if(!exhibitSelected/* && storiesDone*/)
         {
             panel.SetActive(true);
             exhibitSelected = true;
