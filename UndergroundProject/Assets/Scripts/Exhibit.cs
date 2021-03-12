@@ -14,6 +14,7 @@ public class Exhibit : MonoBehaviour
 
     //Canvas info (next script)
     public Sprite[] slajdovi;
+    public GameObject mainPanel;
     public GameObject panel;
     private int brojac = 0;
     public GameObject prev;
@@ -32,7 +33,7 @@ public class Exhibit : MonoBehaviour
         //if exhibit is not selected, open selected exhibit
         if(!exhibitSelected && storiesDone)
         {
-            panel.SetActive(true);
+            mainPanel.SetActive(true);
             exhibitSelected = true;
             postProcessing.weight = 1; //activate depth of field
             
@@ -65,7 +66,7 @@ public class Exhibit : MonoBehaviour
 
     public void exit()
     {
-        panel.SetActive(false);
+        mainPanel.SetActive(false);
         exhibitSelected = false;
         postProcessing.weight = 0; //deactivate depth of field
     }
