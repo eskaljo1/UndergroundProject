@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6674ceba0a6e9b444892d9d98621b1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameOfVideo: prvaKeyStream
+  nameOfVideo: PRVAPRICAkey1
   skip: {fileID: 1114040580}
   link: {fileID: 0}
 --- !u!1 &950115228
@@ -2452,10 +2452,10 @@ RectTransform:
   m_Father: {fileID: 1226235361}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -40, y: -40}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.5, y: -40}
+  m_SizeDelta: {x: 41, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092899758
 MonoBehaviour:
@@ -9370,12 +9370,12 @@ PrefabInstance:
     - target: {fileID: 5354116130565604434, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: videoObjects.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604434, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: skipPositions.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604434, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
@@ -9390,7 +9390,7 @@ PrefabInstance:
     - target: {fileID: 5354116130565604434, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: numberOfVideos
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604434, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}

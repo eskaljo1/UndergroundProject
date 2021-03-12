@@ -1225,12 +1225,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 39f3eb4d4f3204646aa8fe6ad403ad72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.38, y: 3.7}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1717,10 +1717,10 @@ RectTransform:
   m_Father: {fileID: 780879339}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -40, y: -40}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 45.5, y: -40}
+  m_SizeDelta: {x: 41, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367866469
 MonoBehaviour:
@@ -3922,12 +3922,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 39f3eb4d4f3204646aa8fe6ad403ad72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.38, y: 3.7}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3965,7 +3965,7 @@ VideoPlayer:
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &959653271
 Transform:
