@@ -10,6 +10,7 @@ public class MainMenuNavigation : MonoBehaviour
     //Open scene
     void OpenScene()
     {
+        Exhibit.storiesDone = false;
         //Return to menu scene
         if(sceneNumber == "0")
         {

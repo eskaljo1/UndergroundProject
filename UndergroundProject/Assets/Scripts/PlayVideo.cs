@@ -17,6 +17,7 @@ public class PlayVideo : MonoBehaviour
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.loopPointReached += OnMovieFinished;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, nameOfVideo + ".webm");
+        videoPlayer.Play();
         if (link != null)
             link.SetActive(true);
     }

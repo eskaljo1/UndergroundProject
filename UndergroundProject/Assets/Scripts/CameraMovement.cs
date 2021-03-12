@@ -6,10 +6,10 @@ public class CameraMovement : MonoBehaviour
 {
     public float sensitivityX = 8F;
     public float sensitivityY = 8F;
-    public float minimumY = -90.0f;
-    public float maximumY = 90.0f;
-    float rotationY = 0.0f;
-    float rotationX = 360.0f;
+    float minimumY = -90.0f;
+    float maximumY = 90.0f;
+    float rotationY;
+    float rotationX;
 
     //Zoom
     public float zoomSpeed = 30f;
@@ -21,6 +21,8 @@ public class CameraMovement : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
+        rotationY = transform.rotation.eulerAngles.x;
+        rotationX = transform.rotation.eulerAngles.y;
     }
 
     //Update rotation of camera
