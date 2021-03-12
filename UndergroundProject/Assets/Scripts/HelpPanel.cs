@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HelpPanel : MonoBehaviour
 {
+
     public void ExitHelp()
     {
         gameObject.SetActive(false);
@@ -11,6 +12,7 @@ public class HelpPanel : MonoBehaviour
 
     public void OpenHelp()
     {
-        gameObject.SetActive(true);
+        if (!Exhibit.exhibitSelected)
+            gameObject.SetActive(true);
     }
 }
