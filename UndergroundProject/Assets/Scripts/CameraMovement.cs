@@ -37,12 +37,12 @@ public class CameraMovement : MonoBehaviour
                 transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
             }
 
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 clicked = true;//!clicked;
                 Cursor.visible = !clicked;
             }
-            if (Input.GetMouseButtonUp(1))
+            if (Input.GetMouseButtonUp(0))
             {
                 clicked = false;//!clicked;
                 Cursor.visible = !clicked;
