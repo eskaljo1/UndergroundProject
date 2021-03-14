@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public float sensitivityX = 8F;
-    public float sensitivityY = 8F;
+    float sensitivityX = 2F;
+    float sensitivityY = 2F;
     float minimumY = -90.0f;
     float maximumY = 90.0f;
     float rotationY;
     float rotationX;
 
     //Zoom
-    public float zoomSpeed = 30f;
-    public float maxFov = 60f;
-    public float minFov = 20f;
+    float zoomSpeed = 10f;
+    float maxFov = 60f;
+    float minFov = 20f;
 
     private bool clicked = false;
 
@@ -28,7 +28,11 @@ public class CameraMovement : MonoBehaviour
     //Update rotation of camera
     void Update()
     {
-        if (!Exhibit.exhibitSelected) {
+        sensitivityX = HelpPanel.sensitivity;
+        sensitivityY = HelpPanel.sensitivity;
+
+        if (!Exhibit.exhibitSelected && !HelpPanel.panelOpened)
+        {
             if (clicked)
             {
                 rotationX += Input.GetAxis("Mouse X") * sensitivityX;
@@ -47,12 +51,27 @@ public class CameraMovement : MonoBehaviour
                 clicked = false;//!clicked;
                 Cursor.visible = !clicked;
             }
-        }
 
-        //Zoom
-        float fov = Camera.main.fieldOfView;
-        fov += Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
-        fov = Mathf.Clamp(fov, minFov, maxFov);
-        Camera.main.fieldOfView = fov;
+            //Zoom
+            float fov = Camera.main.fieldOfView;
+
+            if (Input.GetKey(KeyCode.I))
+            {
+                fov -= 0.1f;
+                fov = Mathf.Clamp(fov, minFov, maxFov);
+                Camera.main.fieldOfView = fov;
+            }
+
+            if (Input.GetKey(KeyCode.O))
+            {
+                fov += 0.1f;
+                fov = Mathf.Clamp(fov, minFov, maxFov);
+                Camera.main.fieldOfView = fov;
+            }
+
+            fov -= Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
+            fov = Mathf.Clamp(fov, minFov, maxFov);
+            Camera.main.fieldOfView = fov;
+        }
     }
 }

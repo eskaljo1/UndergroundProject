@@ -34,7 +34,7 @@ public class MainMenuNavigation : MonoBehaviour
 
     void OnMouseDown()
     {
-        if(!Exhibit.exhibitSelected) 
+        if(!Exhibit.exhibitSelected && !HelpPanel.panelOpened) 
             if(Cursor.visible)
                 OpenScene();
     }
