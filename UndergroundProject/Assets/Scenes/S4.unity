@@ -7212,14 +7212,16 @@ MonoBehaviour:
     the left mouse button to take a closer look
 
 
-    - //for skipping
+    - Stories can be skipped by
+    clicking the skip button (double arrows) with the left mouse button
 
 
-    - //for
-    going back to menu
+    - Clicking
+    the X symbol with the left mouse button returns you to the main menu
 
 
-    - Movement speed:'
+    -
+    Movement speed:'
 --- !u!222 &1751181471
 CanvasRenderer:
   m_ObjectHideFlags: 0

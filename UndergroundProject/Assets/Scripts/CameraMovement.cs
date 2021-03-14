@@ -57,14 +57,14 @@ public class CameraMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.I))
             {
-                fov -= 0.1f;
+                fov -= 0.18f;
                 fov = Mathf.Clamp(fov, minFov, maxFov);
                 Camera.main.fieldOfView = fov;
             }
 
             if (Input.GetKey(KeyCode.O))
             {
-                fov += 0.1f;
+                fov += 0.18f;
                 fov = Mathf.Clamp(fov, minFov, maxFov);
                 Camera.main.fieldOfView = fov;
             }
