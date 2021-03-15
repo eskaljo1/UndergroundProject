@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5118321221509260872}
   - component: {fileID: 5820475536436239081}
   - component: {fileID: 5820475536436239080}
-  - component: {fileID: 8809652500135028225}
   m_Layer: 0
   m_Name: Menu cross
   m_TagString: Untagged
@@ -108,17 +107,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNumber: 0
---- !u!114 &8809652500135028225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6631289284421257117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdce1a471363149459542980da88f3d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 40
-  typeOfRotation: 2

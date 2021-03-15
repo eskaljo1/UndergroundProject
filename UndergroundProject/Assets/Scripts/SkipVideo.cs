@@ -23,7 +23,8 @@ public class SkipVideo : MonoBehaviour
             else
             {
                 videoObjects[videoObjects.Length - numberOfVideos].SetActive(true);
-                this.transform.position = skipPositions[videoObjects.Length - numberOfVideos].transform.position;
+                transform.position = skipPositions[videoObjects.Length - numberOfVideos].transform.position;
+                transform.rotation = skipPositions[videoObjects.Length - numberOfVideos].transform.rotation;
             }
 
         }

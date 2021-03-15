@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5354116130565604432}
   - component: {fileID: 5354116130565604433}
   - component: {fileID: 5354116130565604434}
-  - component: {fileID: 5354116130565604435}
   m_Layer: 0
   m_Name: skip
   m_TagString: Untagged
@@ -111,17 +110,4 @@ MonoBehaviour:
   videoObjects:
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &5354116130565604435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5354116130565604444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdce1a471363149459542980da88f3d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 50
-  typeOfRotation: 3
+  skipPositions: []
