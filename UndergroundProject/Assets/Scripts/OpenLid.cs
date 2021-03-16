@@ -5,6 +5,7 @@ using UnityEngine;
 public class OpenLid : MonoBehaviour
 {
     private bool opened = false;
+    public GameObject arrow;
 
     void OnMouseDown()
     {
@@ -12,6 +13,7 @@ public class OpenLid : MonoBehaviour
         {
             opened = true;
             GetComponent<Animator>().SetBool("OpenLid", true);
+            arrow.SetActive(false);
         }
     }
 }
