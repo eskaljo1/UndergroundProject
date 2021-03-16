@@ -7,6 +7,7 @@ public class SkipVideo : MonoBehaviour
     public int numberOfVideos;
     public GameObject[] videoObjects;
     public GameObject[] skipPositions;
+    public AudioSource audio;
 
     public void OnMouseDown()
     {
@@ -19,6 +20,7 @@ public class SkipVideo : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 Exhibit.storiesDone = true;
+                audio.Play();
             }
             else
             {
