@@ -182,6 +182,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: The Bunker
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &16891532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -462,6 +471,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: The Police Search
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &76321053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1593,6 +1611,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: "Persecution of Jehovah\u2019s Witnesses"
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &283124041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2448,7 +2475,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey3
   skip: {fileID: 1086624119}
-  link: {fileID: 0}
 --- !u!212 &482052724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2885,7 +2911,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey4
   skip: {fileID: 1086624119}
-  link: {fileID: 0}
 --- !u!212 &597296275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4244,8 +4269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey5
-  skip: {fileID: 1671439302}
-  link: {fileID: 0}
+  skip: {fileID: 1086624119}
 --- !u!212 &855721075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7192,6 +7216,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: Confiscations
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &1384793921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8029,7 +8062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey1
   skip: {fileID: 1086624119}
-  link: {fileID: 0}
 --- !u!212 &1663388554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8523,6 +8555,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: Agent Infiltration
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &1734790125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8890,6 +8931,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: Faithful in Trial
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1835468396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9377,8 +9427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey2
-  skip: {fileID: 2096594898}
-  link: {fileID: 0}
+  skip: {fileID: 1086624119}
 --- !u!212 &1888191490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9537,6 +9586,15 @@ MonoBehaviour:
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
   nameOfLink: Coded Messages
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &1903887903
 SpriteRenderer:
   m_ObjectHideFlags: 0

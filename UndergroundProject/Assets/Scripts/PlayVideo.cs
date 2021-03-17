@@ -25,7 +25,7 @@ public class PlayVideo : MonoBehaviour
     void OnMovieFinished(VideoPlayer player)
     {
         SkipVideo script = (SkipVideo) skip.GetComponent(typeof(SkipVideo));//delete this when MP
-        script.OnMouseDown();
+        script.Skip();
     }
 
 }

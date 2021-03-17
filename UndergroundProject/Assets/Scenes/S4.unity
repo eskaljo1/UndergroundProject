@@ -1272,6 +1272,15 @@ MonoBehaviour:
   canvas: {fileID: 250408060}
   nameText: {fileID: 136585755}
   nameOfLink: The Famine
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &354265218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1605,6 +1614,15 @@ MonoBehaviour:
   canvas: {fileID: 250408060}
   nameText: {fileID: 136585755}
   nameOfLink: Re-Staging Rituals
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &523688876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5013,7 +5031,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey3
   skip: {fileID: 152843792}
-  link: {fileID: 0}
 --- !u!212 &1352601349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6125,8 +6142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey2
-  skip: {fileID: 170303310}
-  link: {fileID: 0}
+  skip: {fileID: 152843792}
 --- !u!212 &1530015259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7101,6 +7117,15 @@ MonoBehaviour:
   canvas: {fileID: 250408060}
   nameText: {fileID: 136585755}
   nameOfLink: The Hidden Church
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1716961517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8072,6 +8097,15 @@ MonoBehaviour:
   canvas: {fileID: 250408060}
   nameText: {fileID: 136585755}
   nameOfLink: Archangelism
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1897522698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8312,7 +8346,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey1
   skip: {fileID: 152843792}
-  link: {fileID: 0}
 --- !u!212 &1951775592
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9299,6 +9332,15 @@ MonoBehaviour:
   canvas: {fileID: 250408060}
   nameText: {fileID: 136585755}
   nameOfLink: Underground Churches and Refuges
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &2107629599
 BoxCollider:
   m_ObjectHideFlags: 0

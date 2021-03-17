@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfVideo: TRECAPRICAkey2
-  skip: {fileID: 1844118204}
+  skip: {fileID: 295995997}
 --- !u!212 &288421398
 SpriteRenderer:
   m_ObjectHideFlags: 0

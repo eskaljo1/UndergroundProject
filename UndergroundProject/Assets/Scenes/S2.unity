@@ -2132,6 +2132,15 @@ MonoBehaviour:
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
   nameOfLink: The Interrogation
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &468025206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2242,7 +2251,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey1
   skip: {fileID: 355879363}
-  link: {fileID: 0}
 --- !u!212 &540181892
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2668,6 +2676,15 @@ MonoBehaviour:
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
   nameOfLink: The Underground Monastery
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &643528408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2778,7 +2795,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey4
   skip: {fileID: 355879363}
-  link: {fileID: 0}
 --- !u!212 &649167399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3160,6 +3176,15 @@ MonoBehaviour:
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
   nameOfLink: The True Orthodox Church
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &695898084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3269,8 +3294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey2
-  skip: {fileID: 892161796}
-  link: {fileID: 0}
+  skip: {fileID: 355879363}
 --- !u!212 &699572731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5880,6 +5904,15 @@ MonoBehaviour:
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
   nameOfLink: Secret Monasticism
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &1455031007
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8076,6 +8109,15 @@ MonoBehaviour:
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
   nameOfLink: Seraphim
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1855452626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8643,7 +8685,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey3
   skip: {fileID: 355879363}
-  link: {fileID: 0}
 --- !u!212 &1978505050
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -31,4 +31,23 @@ public class SkipVideo : MonoBehaviour
 
         }
     }
+
+    public void Skip()
+    {
+        videoObjects[videoObjects.Length - numberOfVideos].SetActive(false);
+        numberOfVideos--;
+
+        if (numberOfVideos <= 0)
+        {
+            gameObject.SetActive(false);
+            Exhibit.storiesDone = true;
+            audio.Play();
+        }
+        else
+        {
+            videoObjects[videoObjects.Length - numberOfVideos].SetActive(true);
+            transform.position = skipPositions[videoObjects.Length - numberOfVideos].transform.position;
+            transform.rotation = skipPositions[videoObjects.Length - numberOfVideos].transform.rotation;
+        }
+    }
 }
