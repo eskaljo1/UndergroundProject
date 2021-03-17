@@ -9,17 +9,16 @@ public class PlayVideo : MonoBehaviour
     private VideoPlayer videoPlayer;
     public GameObject skip;
 
-    public GameObject link;
-
-    // Start is called before the first frame update
+  //  public GameObject link;
+    
     void Awake()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.loopPointReached += OnMovieFinished;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, nameOfVideo + ".webm");
         videoPlayer.Play();
-        if (link != null)
-            link.SetActive(true);
+       /* if (link != null)
+            link.SetActive(true);*/
     }
 
 

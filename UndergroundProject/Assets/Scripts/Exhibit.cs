@@ -30,6 +30,16 @@ public class Exhibit : MonoBehaviour
     public Text nameText;
     public string nameOfLink;
 
+    public bool handLinkS3 = false;
+    public GameObject video1;
+    public GameObject video2;
+    public GameObject video3;
+    public GameObject video4;
+    public GameObject raw1;
+    public GameObject raw2;
+    public GameObject raw3;
+    public GameObject raw4;
+
     void Start()
     {
         canvasPos = canvas.transform.position;
@@ -85,8 +95,71 @@ public class Exhibit : MonoBehaviour
         if (brojac != 0) prev.SetActive(true);
         if (brojac == linkSlideNumber)
             linkCollider.SetActive(true);
-        else if(linkCollider != null)
+        else if (linkCollider != null)
             linkCollider.SetActive(false);
+
+        if (handLinkS3)
+        {
+            if (slajdovi[brojac] == null)
+            {
+                panel.SetActive(false);
+                switch (brojac)
+                {
+                    case 1:
+                        video1.SetActive(true);
+                        video2.SetActive(false);
+                        video3.SetActive(false);
+                        video4.SetActive(false);
+                        raw1.SetActive(true);
+                        raw2.SetActive(false);
+                        raw3.SetActive(false);
+                        raw4.SetActive(false);
+                        break;
+                    case 2:
+                        video1.SetActive(false);
+                        video2.SetActive(true);
+                        video3.SetActive(false);
+                        video4.SetActive(false);
+                        raw1.SetActive(false);
+                        raw2.SetActive(true);
+                        raw3.SetActive(false);
+                        raw4.SetActive(false);
+                        break;
+                    case 3:
+                        video1.SetActive(false);
+                        video2.SetActive(false);
+                        video3.SetActive(true);
+                        video4.SetActive(false);
+                        raw1.SetActive(false);
+                        raw2.SetActive(false);
+                        raw3.SetActive(true);
+                        raw4.SetActive(false);
+                        break;
+                    case 4:
+                        video1.SetActive(false);
+                        video2.SetActive(false);
+                        video3.SetActive(false);
+                        video4.SetActive(true);
+                        raw1.SetActive(false);
+                        raw2.SetActive(false);
+                        raw3.SetActive(false);
+                        raw4.SetActive(true);
+                        break;
+                }
+            }
+            else
+            {
+                panel.SetActive(true);
+                video1.SetActive(false);
+                video2.SetActive(false);
+                video3.SetActive(false);
+                video4.SetActive(false);
+                raw1.SetActive(false);
+                raw2.SetActive(false);
+                raw3.SetActive(false);
+                raw4.SetActive(false);
+            }
+        }
     }
 
     public void prevSlajd()
@@ -99,6 +172,69 @@ public class Exhibit : MonoBehaviour
             linkCollider.SetActive(true);
         else if (linkCollider != null)
             linkCollider.SetActive(false);
+
+        if (handLinkS3)
+        {
+            if (slajdovi[brojac] == null)
+            {
+                panel.SetActive(false);
+                switch (brojac)
+                {
+                    case 1:
+                        video1.SetActive(true);
+                        video2.SetActive(false);
+                        video3.SetActive(false);
+                        video4.SetActive(false);
+                        raw1.SetActive(true);
+                        raw2.SetActive(false);
+                        raw3.SetActive(false);
+                        raw4.SetActive(false);
+                        break;
+                    case 2:
+                        video1.SetActive(false);
+                        video2.SetActive(true);
+                        video3.SetActive(false);
+                        video4.SetActive(false);
+                        raw1.SetActive(false);
+                        raw2.SetActive(true);
+                        raw3.SetActive(false);
+                        raw4.SetActive(false);
+                        break;
+                    case 3:
+                        video1.SetActive(false);
+                        video2.SetActive(false);
+                        video3.SetActive(true);
+                        video4.SetActive(false);
+                        raw1.SetActive(false);
+                        raw2.SetActive(false);
+                        raw3.SetActive(true);
+                        raw4.SetActive(false);
+                        break;
+                    case 4:
+                        video1.SetActive(false);
+                        video2.SetActive(false);
+                        video3.SetActive(false);
+                        video4.SetActive(true);
+                        raw1.SetActive(false);
+                        raw2.SetActive(false);
+                        raw3.SetActive(false);
+                        raw4.SetActive(true);
+                        break;
+                }
+            }
+            else
+            {
+                panel.SetActive(true);
+                video1.SetActive(false);
+                video2.SetActive(false);
+                video3.SetActive(false);
+                video4.SetActive(false);
+                raw1.SetActive(false);
+                raw2.SetActive(false);
+                raw3.SetActive(false);
+                raw4.SetActive(false);
+            }
+        }
     }
 
     public void exit()
