@@ -898,7 +898,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PRVAPRICAkey3
   skip: {fileID: 1862083149}
-  link: {fileID: 0}
 --- !u!212 &202647791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1160,7 +1159,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PRVAPRICAkey2
   skip: {fileID: 1862083149}
-  link: {fileID: 0}
 --- !u!212 &249511259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3098,6 +3096,15 @@ MonoBehaviour:
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
   nameOfLink: Paradise Today
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &709777131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4382,6 +4389,15 @@ MonoBehaviour:
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
   nameOfLink: Song of Exile
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!212 &1052737292
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4551,7 +4567,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: 713, y: 380}
+  m_SizeDelta: {x: 715, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168856715
 MonoBehaviour:
@@ -4627,7 +4643,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 2000}
+  m_SizeDelta: {x: 300, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238636019
 MonoBehaviour:
@@ -5163,6 +5179,15 @@ MonoBehaviour:
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
   nameOfLink: A Postcard of Paradise
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1279301707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6178,7 +6203,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: 713, y: 380}
+  m_SizeDelta: {x: 715, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595103518
 MonoBehaviour:
@@ -6347,6 +6372,15 @@ MonoBehaviour:
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
   nameOfLink: Deportation
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1619231712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6762,6 +6796,15 @@ MonoBehaviour:
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
   nameOfLink: The Destruction of Paradise
+  handLinkS3: 0
+  video1: {fileID: 0}
+  video2: {fileID: 0}
+  video3: {fileID: 0}
+  video4: {fileID: 0}
+  raw1: {fileID: 0}
+  raw2: {fileID: 0}
+  raw3: {fileID: 0}
+  raw4: {fileID: 0}
 --- !u!65 &1742188429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7838,7 +7881,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: 713, y: 380}
+  m_SizeDelta: {x: 720, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087883072
 MonoBehaviour:
