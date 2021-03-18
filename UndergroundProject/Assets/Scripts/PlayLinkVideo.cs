@@ -8,11 +8,10 @@ public class PlayLinkVideo : MonoBehaviour
     public string nameOfVideo;
     private VideoPlayer videoPlayer;
     
-    void OnEnable()
+    void Awake()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, nameOfVideo + ".mp4");
-        videoPlayer.Play();
     }
 
 }

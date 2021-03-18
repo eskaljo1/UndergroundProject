@@ -9,18 +9,12 @@ public class PlayVideo : MonoBehaviour
     private VideoPlayer videoPlayer;
     public GameObject skip;
 
-  //  public GameObject link;
-    
     void Awake()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.loopPointReached += OnMovieFinished;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, nameOfVideo + ".webm");
-        videoPlayer.Play();
-       /* if (link != null)
-            link.SetActive(true);*/
     }
-
 
     void OnMovieFinished(VideoPlayer player)
     {
