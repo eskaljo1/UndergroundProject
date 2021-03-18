@@ -607,6 +607,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.3
 --- !u!65 &252690631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1555,6 +1556,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.29
 --- !u!212 &805354363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4035,6 +4037,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.25
 --- !u!65 &1510522243
 BoxCollider:
   m_ObjectHideFlags: 0

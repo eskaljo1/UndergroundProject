@@ -40,6 +40,8 @@ public class Exhibit : MonoBehaviour
     public GameObject raw3;
     public GameObject raw4;
 
+    public float offset = 0.25f;
+
     void Start()
     {
         canvasPos = canvas.transform.position;
@@ -51,7 +53,7 @@ public class Exhibit : MonoBehaviour
     {
         if (!exhibitSelected)
         {
-            float offsetPosY = transform.position.y + 0.1f;
+            float offsetPosY = transform.position.y + offset;
             Vector3 offsetPos = new Vector3(transform.position.x, offsetPosY, transform.position.z);
 
             // Calculate *screen* position (note, not a canvas/recttransform position)

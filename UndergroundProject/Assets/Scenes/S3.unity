@@ -1644,6 +1644,7 @@ MonoBehaviour:
   raw2: {fileID: 639496531}
   raw3: {fileID: 492276734}
   raw4: {fileID: 1410380400}
+  offset: 0.18
 --- !u!212 &310093449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1777,6 +1778,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.28
 --- !u!212 &323563195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3529,6 +3531,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.28
 --- !u!212 &607121888
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7548,6 +7551,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.18
 --- !u!212 &1510017146
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9660,6 +9664,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.18
 --- !u!212 &2100609781
 SpriteRenderer:
   m_ObjectHideFlags: 0

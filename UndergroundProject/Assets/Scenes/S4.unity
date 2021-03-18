@@ -1438,6 +1438,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.2
 --- !u!65 &354265218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1780,6 +1781,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.23
 --- !u!65 &523688876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7511,6 +7513,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.25
 --- !u!65 &1716961517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8491,6 +8494,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.15
 --- !u!65 &1897522698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9882,6 +9886,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.2
 --- !u!65 &2107629599
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -191,6 +191,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.35
 --- !u!212 &16891532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -480,6 +481,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.35
 --- !u!212 &76321053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1698,6 +1700,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.35
 --- !u!212 &283124041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7771,6 +7774,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.35
 --- !u!212 &1384793921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9185,6 +9189,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.35
 --- !u!212 &1734790125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9561,6 +9566,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.25
 --- !u!65 &1835468396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10294,6 +10300,7 @@ MonoBehaviour:
   raw2: {fileID: 0}
   raw3: {fileID: 0}
   raw4: {fileID: 0}
+  offset: 0.28
 --- !u!212 &1903887903
 SpriteRenderer:
   m_ObjectHideFlags: 0
