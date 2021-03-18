@@ -51,7 +51,7 @@ public class Exhibit : MonoBehaviour
     {
         if (!exhibitSelected)
         {
-            float offsetPosY = transform.position.y + 0.3f;
+            float offsetPosY = transform.position.y + 0.1f;
             Vector3 offsetPos = new Vector3(transform.position.x, offsetPosY, transform.position.z);
 
             // Calculate *screen* position (note, not a canvas/recttransform position)
