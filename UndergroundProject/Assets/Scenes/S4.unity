@@ -4068,17 +4068,17 @@ PrefabInstance:
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.537
+      value: -2.503
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.193
+      value: 1.191
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.033
+      value: 1.079
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
@@ -4123,17 +4123,17 @@ PrefabInstance:
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.49086478
+      value: 0.44177833
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7.8538365
+      value: 7.0684533
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7.8538365
+      value: 7.0684533
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604444, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
@@ -5078,7 +5078,7 @@ PrefabInstance:
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.8533378
+      value: -0.922
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
@@ -5088,7 +5088,7 @@ PrefabInstance:
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.895
+      value: -0.933
       objectReference: {fileID: 0}
     - target: {fileID: 5354116130565604438, guid: 3c92d5c1894bdff43b5d5b2c67fa04e8,
         type: 3}
@@ -5190,6 +5190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey3
   skip: {fileID: 152843792}
+  fadeOutAfterTime: 97.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1352601349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5230,7 +5232,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 1}
+  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5269,10 +5271,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1352601351
 Transform:
@@ -6452,6 +6454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey2
   skip: {fileID: 152843792}
+  fadeOutAfterTime: 25.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1530015259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6492,7 +6496,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 1}
+  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6531,10 +6535,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1530015261
 Transform:
@@ -8735,6 +8739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: CETVRTAPRICAkey1
   skip: {fileID: 152843792}
+  fadeOutAfterTime: 106.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1951775592
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8775,7 +8781,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 1}
+  m_Color: {r: 0.7830189, g: 0.6729681, b: 0.5133945, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8814,10 +8820,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1951775594
 Transform:

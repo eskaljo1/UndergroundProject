@@ -898,6 +898,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PRVAPRICAkey3
   skip: {fileID: 1862083149}
+  fadeOutAfterTime: 62.5
+  fadeInAfterTime: 0.5
 --- !u!212 &202647791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -938,7 +940,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d57dc55d49754d649beac9a1576e9314, type: 3}
-  m_Color: {r: 0.6415094, g: 0.50947547, b: 0.40850836, a: 1}
+  m_Color: {r: 0.6415094, g: 0.50947547, b: 0.40850836, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -977,10 +979,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &202647793
 Transform:
@@ -989,13 +991,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202647789}
-  m_LocalRotation: {x: -0.11446967, y: -0.28391662, z: 0.019236183, w: -0.9517973}
+  m_LocalRotation: {x: -0.11231344, y: -0.23571542, z: 0.0133810565, w: -0.9652176}
   m_LocalPosition: {x: 0.347, y: -0.43, z: 0.721}
   m_LocalScale: {x: 0.1447599, y: 0.14811432, z: 0.14475991}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 13.228001, y: 393.413, z: 1.6710001}
+  m_LocalEulerAnglesHint: {x: 12.892, y: 387.627, z: 1.5940001}
 --- !u!1 &203780155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PRVAPRICAkey2
   skip: {fileID: 1862083149}
+  fadeOutAfterTime: 95.5
+  fadeInAfterTime: 0.5
 --- !u!212 &249511259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1277,7 +1281,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f8d480e56e19702478fc5fce8dc67fe8, type: 3}
-  m_Color: {r: 0.6415094, g: 0.50947547, b: 0.40850836, a: 1}
+  m_Color: {r: 0.6415094, g: 0.50947547, b: 0.40850836, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1316,10 +1320,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &249511261
 Transform:

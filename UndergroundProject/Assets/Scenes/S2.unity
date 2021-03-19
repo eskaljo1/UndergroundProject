@@ -2405,6 +2405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey1
   skip: {fileID: 355879363}
+  fadeOutAfterTime: 55.5
+  fadeInAfterTime: 0.5
 --- !u!212 &540181892
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2445,7 +2447,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 1}
+  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2484,10 +2486,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &540181894
 Transform:
@@ -2954,6 +2956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey4
   skip: {fileID: 355879363}
+  fadeOutAfterTime: 38
+  fadeInAfterTime: 0.5
 --- !u!212 &649167399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2994,7 +2998,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 1}
+  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3033,10 +3037,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &649167401
 Transform:
@@ -3045,13 +3049,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649167397}
-  m_LocalRotation: {x: -0.06595758, y: 0.47696206, z: 0.027936287, w: -0.87600017}
-  m_LocalPosition: {x: -0.797, y: -0.006, z: -0.453}
+  m_LocalRotation: {x: -0.06127934, y: 0.3574915, z: -0.01236724, w: -0.93182176}
+  m_LocalPosition: {x: -0.872, y: -0.01, z: -0.451}
   m_LocalScale: {x: 0.189786, y: 0.19418381, z: 0.18978602}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 5.1010003, y: 302.578, z: -6.4480004}
+  m_LocalEulerAnglesHint: {x: 7.0680003, y: 317.948, z: -1.199}
 --- !u!1 &655105651
 GameObject:
   m_ObjectHideFlags: 0
@@ -3455,6 +3459,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey2
   skip: {fileID: 355879363}
+  fadeOutAfterTime: 31.5
+  fadeInAfterTime: 0.5
 --- !u!212 &699572731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3495,7 +3501,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 1}
+  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3534,10 +3540,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &699572733
 Transform:
@@ -9306,6 +9312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: DRUGAPRICAkey3
   skip: {fileID: 355879363}
+  fadeOutAfterTime: 40.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1978505050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9346,7 +9354,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 1}
+  m_Color: {r: 0.7924528, g: 0.60178614, b: 0.497152, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9385,10 +9393,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1978505052
 Transform:
@@ -9397,13 +9405,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978505048}
-  m_LocalRotation: {x: -0.11394864, y: -0.4314065, z: 0.016860586, w: -0.89477366}
+  m_LocalRotation: {x: -0.11290905, y: -0.38394573, z: 0.022806102, w: -0.9161425}
   m_LocalPosition: {x: 0.798, y: 0.04, z: -0.795}
   m_LocalScale: {x: 0.15742464, y: 0.16107255, z: 0.15742466}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 12.619, y: 411.924, z: 4.004}
+  m_LocalEulerAnglesHint: {x: 12.967001, y: 405.776, z: 2.6420002}
 --- !u!1 &1990332521
 GameObject:
   m_ObjectHideFlags: 0
@@ -9723,7 +9731,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062543002}
   m_LocalRotation: {x: 0.02694542, y: -0.122123234, z: -0.07127971, w: -0.98958534}
-  m_LocalPosition: {x: 0.9, y: -0.597, z: -2.186}
+  m_LocalPosition: {x: 0.9, y: -0.594, z: -2.186}
   m_LocalScale: {x: 0.029766658, y: 0.03336837, z: 0.022202045}
   m_Children: []
   m_Father: {fileID: 0}

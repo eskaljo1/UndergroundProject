@@ -2625,6 +2625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey3
   skip: {fileID: 1086624119}
+  fadeOutAfterTime: 55.5
+  fadeInAfterTime: 0.5
 --- !u!212 &482052724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2665,7 +2667,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 1}
+  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2704,10 +2706,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &482052726
 Transform:
@@ -3139,6 +3141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey4
   skip: {fileID: 1086624119}
+  fadeOutAfterTime: 50.5
+  fadeInAfterTime: 0.5
 --- !u!212 &597296275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3179,7 +3183,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 1}
+  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3218,10 +3222,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &597296277
 Transform:
@@ -4582,6 +4586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey5
   skip: {fileID: 1086624119}
+  fadeOutAfterTime: 36.5
+  fadeInAfterTime: 0.5
 --- !u!212 &855721075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4622,7 +4628,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 1}
+  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4661,10 +4667,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &855721077
 Transform:
@@ -8687,6 +8693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey1
   skip: {fileID: 1086624119}
+  fadeOutAfterTime: 63.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1663388554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8727,7 +8735,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 1}
+  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8766,10 +8774,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1663388556
 Transform:
@@ -10133,6 +10141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfVideo: PETAPRICAkey2
   skip: {fileID: 1086624119}
+  fadeOutAfterTime: 37.5
+  fadeInAfterTime: 0.5
 --- !u!212 &1888191490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10173,7 +10183,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30198dc1ad0e3e94c84b5f1922c77e53, type: 3}
-  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 1}
+  m_Color: {r: 0.5566038, g: 0.50996614, b: 0.47521362, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10212,10 +10222,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1888191492
 Transform:
