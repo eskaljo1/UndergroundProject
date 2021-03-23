@@ -5466,7 +5466,7 @@ MonoBehaviour:
   nameOfVideo: TRECAPRICAkey3
   skip: {fileID: 295995997}
   fadeOutAfterTime: 99.5
-  fadeInAfterTime: 1.1
+  fadeInAfterTime: 1.7
 --- !u!212 &959653269
 SpriteRenderer:
   m_ObjectHideFlags: 0
