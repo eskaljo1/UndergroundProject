@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 792553870}
-        m_MethodName: openExitPanel
+        m_MethodName: OpenHelp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -359,7 +359,7 @@ RectTransform:
   - {fileID: 1532213832}
   - {fileID: 9296500}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -919,7 +919,7 @@ RectTransform:
   - {fileID: 1037377210}
   - {fileID: 655105652}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -981,7 +981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &127958757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -995,7 +995,7 @@ RectTransform:
   m_Children:
   - {fileID: 1139503564}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 13
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 792553870}
-        m_MethodName: exitApp
+        m_MethodName: openExitPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2228,7 +2228,7 @@ RectTransform:
   - {fileID: 900963885}
   - {fileID: 1819613938}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2590,7 +2590,7 @@ RectTransform:
   m_Children:
   - {fileID: 417250920}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3080,6 +3080,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1057737}
+  - {fileID: 127958757}
   - {fileID: 1720949545}
   - {fileID: 1789950001}
   - {fileID: 114511254}
@@ -3092,7 +3093,6 @@ RectTransform:
   - {fileID: 834526644}
   - {fileID: 475273097}
   - {fileID: 950280072}
-  - {fileID: 127958757}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4143,7 +4143,7 @@ RectTransform:
   - {fileID: 1784421823}
   - {fileID: 2081739657}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4377,7 +4377,7 @@ RectTransform:
   - {fileID: 2090446656}
   - {fileID: 1815263033}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4596,7 +4596,7 @@ RectTransform:
   m_Children:
   - {fileID: 715104017}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5423,7 +5423,7 @@ RectTransform:
   m_Children:
   - {fileID: 753572719}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5986,7 +5986,7 @@ RectTransform:
   m_Children:
   - {fileID: 1502470539}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8327,7 +8327,7 @@ RectTransform:
   m_Children:
   - {fileID: 1366535225}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8455,7 +8455,7 @@ RectTransform:
   - {fileID: 569436336}
   - {fileID: 1248509741}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8961,7 +8961,7 @@ RectTransform:
   - {fileID: 1574765114}
   - {fileID: 1990332522}
   m_Father: {fileID: 587868913}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10816,27 +10816,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Hold left mouse button to rotate camera
-
-
-    - Use mouse scroll wheel
-    or buttons "I" and "O" to zoom in and out
-
-
-    - Click on the exhibits with
-    the left mouse button to take a closer look
-
-
-    - Stories can be skipped by
-    clicking the skip button (double arrows) with the left mouse button
-
-
-    - Clicking
-    the X symbol with the left mouse button returns you to the main menu
-
-
-    -
-    Movement speed:'
+  m_Text: "- \u021Aine\u021Bi ap\u0103sat butonul st\xE2ng al mouse-ului pentru a
+    roti camera.\n\n- Utiliza\u021Bi roata de derulare a mouse-ului sau butoanele
+    \u201EI\u201D \u0219i \u201EO\u201D pentru a utiliza func\u021Bia zoom.\n\n-
+    Face\u021Bi clic cu butonul st\xE2ng al mouse-ului pe suprafa\u021Ba exponatelor
+    pentru a le vedea mai bine \u0219i a afla mai multe.\n\n- Istoriile pot fi omise
+    prin click sau cu ajutorul butonului de omitere (s\u0103geata dubl\u0103) activat
+    prin click st\xE2nga.\n\n- Pute\u021Bi reveni \xEEn meniul principal acces\xE2nd
+    simbolul \u201EX\u201D prin click st\xE2nga. \n\n- Viteza de navigare a spa\u021Biului:"
 --- !u!222 &2090446658
 CanvasRenderer:
   m_ObjectHideFlags: 0

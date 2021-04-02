@@ -4754,27 +4754,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Hold left mouse button to rotate camera
-
-
-    - Use mouse scroll wheel
-    or buttons "I" and "O" to zoom in and out
-
-
-    - Click on the exhibits with
-    the left mouse button to take a closer look
-
-
-    - Stories can be skipped by
-    clicking the skip button (double arrows) with the left mouse button
-
-
-    - Clicking
-    the X symbol with the left mouse button returns you to the main menu
-
-
-    -
-    Movement speed:'
+  m_Text: "- \u021Aine\u021Bi ap\u0103sat butonul st\xE2ng al mouse-ului pentru a
+    roti camera.\n\n- Utiliza\u021Bi roata de derulare a mouse-ului sau butoanele
+    \u201EI\u201D \u0219i \u201EO\u201D pentru a utiliza func\u021Bia zoom.\n\n-
+    Face\u021Bi clic cu butonul st\xE2ng al mouse-ului pe suprafa\u021Ba exponatelor
+    pentru a le vedea mai bine \u0219i a afla mai multe.\n\n- Istoriile pot fi omise
+    prin click sau cu ajutorul butonului de omitere (s\u0103geata dubl\u0103) activat
+    prin click st\xE2nga.\n\n- Pute\u021Bi reveni \xEEn meniul principal acces\xE2nd
+    simbolul \u201EX\u201D prin click st\xE2nga. \n\n- Viteza de navigare a spa\u021Biului:"
 --- !u!222 &683706573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7018,7 +7005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1326990308
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7112,7 +7099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60c6398a029b69f42b1e37a8b028ca1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5746b37bcaf84d34e8212217c2111542, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
