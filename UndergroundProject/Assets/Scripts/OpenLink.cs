@@ -12,6 +12,8 @@ public class OpenLink : MonoBehaviour
     {
 #if !UNITY_EDITOR && UNITY_WEBGL
              OpenNewTab(url);
+#else 
+        Application.OpenURL(url);
 #endif
     }
 
