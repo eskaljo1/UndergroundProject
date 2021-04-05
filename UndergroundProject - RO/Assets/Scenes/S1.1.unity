@@ -677,7 +677,7 @@ MonoBehaviour:
   namePanel: {fileID: 1232030406}
   canvas: {fileID: 1226235360}
   nameText: {fileID: 1354620211}
-  nameOfLink: The Map of Paradise
+  nameOfLink: "Planul Gr\u0103dinii Raiului"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -1834,7 +1834,7 @@ MonoBehaviour:
   namePanel: {fileID: 1232030406}
   canvas: {fileID: 1226235360}
   nameText: {fileID: 1354620211}
-  nameOfLink: The Life of Inochentie
+  nameOfLink: "Via\u021Ba P\u0103rintelui Inochentie de la Balta"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -3452,7 +3452,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 110, y: 25}
+  m_SizeDelta: {x: 150, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1232030408
 MonoBehaviour:
@@ -4490,7 +4490,7 @@ MonoBehaviour:
   namePanel: {fileID: 1995432206}
   canvas: {fileID: 1226235360}
   nameText: {fileID: 713028159}
-  nameOfLink: The Civil War
+  nameOfLink: "R\u0103zboiul Civil Rus"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -5988,7 +5988,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 25}
+  m_SizeDelta: {x: 110, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995432208
 MonoBehaviour:

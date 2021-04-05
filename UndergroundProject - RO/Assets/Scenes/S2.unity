@@ -2471,7 +2471,7 @@ MonoBehaviour:
   namePanel: {fileID: 834526643}
   canvas: {fileID: 587868912}
   nameText: {fileID: 715104018}
-  nameOfLink: The Interrogation
+  nameOfLink: Interogatoriul
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -3229,7 +3229,7 @@ MonoBehaviour:
   namePanel: {fileID: 475273096}
   canvas: {fileID: 587868912}
   nameText: {fileID: 417250921}
-  nameOfLink: The Underground Monastery
+  nameOfLink: "M\u0103n\u0103stirea subteran\u0103"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -3732,7 +3732,7 @@ MonoBehaviour:
   namePanel: {fileID: 1085497344}
   canvas: {fileID: 587868912}
   nameText: {fileID: 1502470540}
-  nameOfLink: The True Orthodox Church
+  nameOfLink: "Biserica Adev\u0103rat-Ortodox\u0103"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -5428,7 +5428,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 62, y: 25}
+  m_SizeDelta: {x: 90, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950280073
 MonoBehaviour:
@@ -7082,7 +7082,7 @@ MonoBehaviour:
   namePanel: {fileID: 1648162742}
   canvas: {fileID: 587868912}
   nameText: {fileID: 1366535226}
-  nameOfLink: Secret Monasticism
+  nameOfLink: Monahismul Secret
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -8496,10 +8496,10 @@ RectTransform:
   m_Father: {fileID: 1990332522}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 200}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 2000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725432635
 MonoBehaviour:
@@ -9459,7 +9459,7 @@ MonoBehaviour:
   namePanel: {fileID: 950280071}
   canvas: {fileID: 587868912}
   nameText: {fileID: 753572720}
-  nameOfLink: Seraphim
+  nameOfLink: "P\u0103rintele Serafim"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}

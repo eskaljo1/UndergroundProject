@@ -922,7 +922,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 25}
+  m_SizeDelta: {x: 70, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143406453
 MonoBehaviour:
@@ -1727,7 +1727,7 @@ MonoBehaviour:
   namePanel: {fileID: 1371489212}
   canvas: {fileID: 780879338}
   nameText: {fileID: 1444532621}
-  nameOfLink: Arrest photographs
+  nameOfLink: "Fotografiile din \xEEn arest"
   handLinkS3: 1
   video1: {fileID: 1367191232}
   video2: {fileID: 1857269853}
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   namePanel: {fileID: 647832203}
   canvas: {fileID: 780879338}
   nameText: {fileID: 1456493168}
-  nameOfLink: Orphaned Children
+  nameOfLink: "Copii lua\u021Bi de l\xE2ng\u0103 p\u0103rin\u021Bi"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -3616,7 +3616,7 @@ MonoBehaviour:
   namePanel: {fileID: 1044008920}
   canvas: {fileID: 780879338}
   nameText: {fileID: 594583968}
-  nameOfLink: The Righteous Man
+  nameOfLink: Dreptul
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -4386,7 +4386,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 105, y: 25}
+  m_SizeDelta: {x: 125, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647832205
 MonoBehaviour:
@@ -6059,7 +6059,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 105, y: 25}
+  m_SizeDelta: {x: 70, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044008922
 MonoBehaviour:
@@ -7380,7 +7380,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 105, y: 25}
+  m_SizeDelta: {x: 125, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371489214
 MonoBehaviour:
@@ -7913,7 +7913,7 @@ MonoBehaviour:
   namePanel: {fileID: 2074409334}
   canvas: {fileID: 780879338}
   nameText: {fileID: 1790461422}
-  nameOfLink: Miron's Letter
+  nameOfLink: Scrisoarea lui Miron
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -10423,7 +10423,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 77, y: 25}
+  m_SizeDelta: {x: 110, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074409336
 MonoBehaviour:
@@ -10523,7 +10523,7 @@ MonoBehaviour:
   namePanel: {fileID: 143406451}
   canvas: {fileID: 780879338}
   nameText: {fileID: 1149896596}
-  nameOfLink: The Case File
+  nameOfLink: Dosarul
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}

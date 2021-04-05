@@ -1787,7 +1787,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 92, y: 25}
+  m_SizeDelta: {x: 120, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346867142
 MonoBehaviour:
@@ -3336,7 +3336,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 25}
+  m_SizeDelta: {x: 140, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656303944
 MonoBehaviour:
@@ -3554,7 +3554,7 @@ MonoBehaviour:
   namePanel: {fileID: 346867140}
   canvas: {fileID: 389971937}
   nameText: {fileID: 507821200}
-  nameOfLink: Paradise Today
+  nameOfLink: "Gr\u0103dina Raiului ast\u0103zi"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -4998,7 +4998,7 @@ MonoBehaviour:
   namePanel: {fileID: 656303942}
   canvas: {fileID: 389971937}
   nameText: {fileID: 653694514}
-  nameOfLink: Song of Exile
+  nameOfLink: "C\xE2ntecul Exilului Inochentist"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -5420,10 +5420,10 @@ RectTransform:
   m_Father: {fileID: 410495821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 200}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 2000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238636019
 MonoBehaviour:
@@ -5958,7 +5958,7 @@ MonoBehaviour:
   namePanel: {fileID: 921622213}
   canvas: {fileID: 389971937}
   nameText: {fileID: 226090151}
-  nameOfLink: A Postcard of Paradise
+  nameOfLink: "O carte po\u0219tal\u0103 din Rai"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -7311,7 +7311,7 @@ MonoBehaviour:
   namePanel: {fileID: 890220063}
   canvas: {fileID: 389971937}
   nameText: {fileID: 1480296987}
-  nameOfLink: Deportation
+  nameOfLink: Deportare
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -7945,7 +7945,7 @@ MonoBehaviour:
   namePanel: {fileID: 727024593}
   canvas: {fileID: 389971937}
   nameText: {fileID: 1549592121}
-  nameOfLink: The Destruction of Paradise
+  nameOfLink: Distrugerea Paradisului
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}

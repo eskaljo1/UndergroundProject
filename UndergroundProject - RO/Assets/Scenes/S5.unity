@@ -181,7 +181,7 @@ MonoBehaviour:
   namePanel: {fileID: 367945833}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1849230017}
-  nameOfLink: The Bunker
+  nameOfLink: "Bunc\u0103rul"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -565,7 +565,7 @@ MonoBehaviour:
   namePanel: {fileID: 2114484467}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1145137514}
-  nameOfLink: The Police Search
+  nameOfLink: "Perchezi\u021Bia"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -1976,7 +1976,7 @@ MonoBehaviour:
   namePanel: {fileID: 1915581069}
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
-  nameOfLink: "Persecution of Jehovah\u2019s Witnesses"
+  nameOfLink: "Persecu\u021Biile \xEEmpotriva Martorilor lui Iehova"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -5438,7 +5438,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 25}
+  m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879011796
 MonoBehaviour:
@@ -8711,7 +8711,7 @@ MonoBehaviour:
   namePanel: {fileID: 879011794}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1266626416}
-  nameOfLink: Confiscations
+  nameOfLink: Obiecte confiscate
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -9191,10 +9191,10 @@ RectTransform:
   m_Father: {fileID: 1428289122}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 200}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 2000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504353683
 MonoBehaviour:
@@ -10128,7 +10128,7 @@ MonoBehaviour:
   namePanel: {fileID: 1960759399}
   canvas: {fileID: 597658661}
   nameText: {fileID: 535767007}
-  nameOfLink: Agent Infiltration
+  nameOfLink: "Infiltrarea agen\u021Bilor poli\u021Biei"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -10731,7 +10731,7 @@ MonoBehaviour:
   namePanel: {fileID: 2115065290}
   canvas: {fileID: 597658661}
   nameText: {fileID: 267639223}
-  nameOfLink: Faithful in Trial
+  nameOfLink: "Credincios \xEEn proces "
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -11402,7 +11402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888191488}
   m_LocalRotation: {x: 0.022114119, y: 0.9425093, z: -0.13634911, w: 0.30429614}
-  m_LocalPosition: {x: 1.765, y: 0.994, z: 0.14}
+  m_LocalPosition: {x: 1.772, y: 1.046, z: 0.126}
   m_LocalScale: {x: 0.21201847, y: 0.2169314, z: 0.21201847}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11467,7 +11467,7 @@ MonoBehaviour:
   namePanel: {fileID: 1512408647}
   canvas: {fileID: 597658661}
   nameText: {fileID: 833341281}
-  nameOfLink: Coded Messages
+  nameOfLink: Mesaje codificate
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -11578,7 +11578,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 190, y: 25}
+  m_SizeDelta: {x: 210, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915581071
 MonoBehaviour:
@@ -11731,7 +11731,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 90, y: 25}
+  m_SizeDelta: {x: 130, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960759401
 MonoBehaviour:
@@ -13110,7 +13110,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 85, y: 25}
+  m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115065292
 MonoBehaviour:

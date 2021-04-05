@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nameless Faith
+  m_Text: "Credin\u021Ba f\u0103r\u0103 nume"
 --- !u!222 &30772778
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -580,7 +580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Catacomb Church
+  m_Text: Biserica din Catacombe
 --- !u!222 &490799443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -658,7 +658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destruction of Paradise
+  m_Text: Distrugerea Raiului
 --- !u!222 &562459125
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1498,7 +1498,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hidden Bunker
+  m_Text: "Bunc\u0103rul"
 --- !u!222 &1368691270
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1699,7 +1699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shelter
+  m_Text: "Ad\u0103postul"
 --- !u!222 &1466871719
 CanvasRenderer:
   m_ObjectHideFlags: 0

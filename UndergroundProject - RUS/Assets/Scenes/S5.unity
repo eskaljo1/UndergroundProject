@@ -181,7 +181,7 @@ MonoBehaviour:
   namePanel: {fileID: 367945833}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1849230017}
-  nameOfLink: The Bunker
+  nameOfLink: "\u0411\u0443\u043D\u043A\u0435\u0440"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -565,7 +565,7 @@ MonoBehaviour:
   namePanel: {fileID: 2114484467}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1145137514}
-  nameOfLink: The Police Search
+  nameOfLink: "\u041E\u0431\u044B\u0441\u043A\u0438"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -1976,7 +1976,8 @@ MonoBehaviour:
   namePanel: {fileID: 1915581069}
   canvas: {fileID: 597658661}
   nameText: {fileID: 224445341}
-  nameOfLink: "Persecution of Jehovah\u2019s Witnesses"
+  nameOfLink: "\u041F\u0440\u0435\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F
+    \u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043B\u0435\u0439 \u0418\u0435\u0433\u043E\u0432\u044B"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -8711,7 +8712,7 @@ MonoBehaviour:
   namePanel: {fileID: 879011794}
   canvas: {fileID: 597658661}
   nameText: {fileID: 1266626416}
-  nameOfLink: Confiscations
+  nameOfLink: "\u0418\u0437\u044A\u044F\u0442\u0438\u044F"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -9191,10 +9192,10 @@ RectTransform:
   m_Father: {fileID: 1428289122}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 200}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 2000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504353683
 MonoBehaviour:
@@ -10128,7 +10129,7 @@ MonoBehaviour:
   namePanel: {fileID: 1960759399}
   canvas: {fileID: 597658661}
   nameText: {fileID: 535767007}
-  nameOfLink: Agent Infiltration
+  nameOfLink: "\u0412\u043D\u0435\u0434\u0440\u0435\u043D\u0438\u0435 \u0430\u0433\u0435\u043D\u0442\u0430"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -10731,7 +10732,7 @@ MonoBehaviour:
   namePanel: {fileID: 2115065290}
   canvas: {fileID: 597658661}
   nameText: {fileID: 267639223}
-  nameOfLink: Faithful in Trial
+  nameOfLink: "\u0412\u0435\u0440\u043D\u044B\u0439 \u0432 \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0438"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -11467,7 +11468,7 @@ MonoBehaviour:
   namePanel: {fileID: 1512408647}
   canvas: {fileID: 597658661}
   nameText: {fileID: 833341281}
-  nameOfLink: Coded Messages
+  nameOfLink: "\u041A\u043E\u0434\u043E\u0432\u044B\u0435 \u043F\u043E\u0441\u043B\u0430\u043D\u0438\u044F"
   handLinkS3: 0
   video1: {fileID: 0}
   video2: {fileID: 0}
@@ -11731,7 +11732,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 90, y: 25}
+  m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960759401
 MonoBehaviour:
@@ -13110,7 +13111,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 85, y: 25}
+  m_SizeDelta: {x: 110, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115065292
 MonoBehaviour:
