@@ -674,9 +674,9 @@ MonoBehaviour:
   nextButton: {fileID: 0}
   linkSlideNumber: -1
   linkCollider: {fileID: 0}
-  namePanel: {fileID: 1232030406}
+  namePanel: {fileID: 1995432206}
   canvas: {fileID: 1226235360}
-  nameText: {fileID: 1354620211}
+  nameText: {fileID: 713028159}
   nameOfLink: "\u041F\u043B\u0430\u043D \u0420\u0430\u044E"
   handLinkS3: 0
   video1: {fileID: 0}
@@ -1904,7 +1904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805354360}
   m_LocalRotation: {x: -0, y: -0.70436007, z: -0, w: -0.7098429}
-  m_LocalPosition: {x: 0.232, y: 1.191, z: -8.368}
+  m_LocalPosition: {x: 0.232, y: 1.191, z: -8.266}
   m_LocalScale: {x: 0.029532, y: 0.029532, z: 0.029532}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2440,13 +2440,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0.7235577, z: 0, w: 0.69026387}
+  m_LocalRotation: {x: 0.16336375, y: 0.7030018, z: -0.17124335, w: 0.6706538}
   m_LocalPosition: {x: -0.503, y: 1.33, z: -9.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 92.698006, z: 0}
+  m_LocalEulerAnglesHint: {x: 27.38, y: 92.698006, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3453,7 +3453,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 110, y: 25}
+  m_SizeDelta: {x: 200, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1232030408
 MonoBehaviour:
@@ -6131,7 +6131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058337679}
   m_LocalRotation: {x: 0.49906343, y: -0.49705014, z: -0.5029539, w: -0.5009134}
-  m_LocalPosition: {x: 0.23699999, y: 1.191, z: -8.3679085}
+  m_LocalPosition: {x: 0.23699999, y: 1.191, z: -8.266}
   m_LocalScale: {x: 0.035526797, y: 0.029532013, z: 0.05104313}
   m_Children: []
   m_Father: {fileID: 0}

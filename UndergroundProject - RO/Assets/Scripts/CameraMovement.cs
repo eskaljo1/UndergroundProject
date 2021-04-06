@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
-        rotationY = transform.rotation.eulerAngles.x;
+        rotationY = -transform.rotation.eulerAngles.x;
         rotationX = transform.rotation.eulerAngles.y;
     }
 
