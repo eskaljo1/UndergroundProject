@@ -21,7 +21,7 @@ public class PlayVideo : MonoBehaviour
         {
             source.Play();
             StartCoroutine(FadeIn());
-            StartCoroutine(FadeOut());
+            //StartCoroutine(FadeOut());
         };
 
         videoPlayer.Prepare();
